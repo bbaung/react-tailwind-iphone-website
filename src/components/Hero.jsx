@@ -45,7 +45,7 @@ const Hero = () => {
                 <p id="hero" className="text-gray-100 font-semibold text-2xl opacity-0">iPhone 15 pro</p>
 
                 <div className="md:w-10/12 w-9/12 md:mt-2 mt-4">
-                    <video className="pointer-events-none" autoPlay muted playsInline={true} key={videoSrc}>
+                    <video className="pointer-events-none" autoPlay muted playsInline={true} key={videoSrc} onEnded={e => e.target.play()}>
                         <source src={videoSrc} type="video/mp4" />
                     </video>
                 </div>

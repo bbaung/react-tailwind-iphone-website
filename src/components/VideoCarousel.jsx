@@ -18,7 +18,7 @@ const VideoCarousel = () => {
     const { isEnd , startPlay, videoId,  isLastddVideo , isPlaying} = video;
 
     useEffect( () =>{
-
+        
     })
 
     return (
